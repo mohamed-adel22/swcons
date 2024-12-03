@@ -1,0 +1,17 @@
+GET http://localhost:5172/engines
+
+
+###
+GET http://localhost:5172/engines/1
+
+###
+POST  http://localhost:5172/engines
+Content-Type: application/json
+
+{
+  "Code":"B58",
+  "Name":"3.0L Inline-Six Turbo",
+  "CarModel":"BMW M340i",
+  "ManufactureDate":"2023-03-20",
+  "Price":9200
+}
